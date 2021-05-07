@@ -1,0 +1,60 @@
+#nombre-del-menu {
+	line-height:1.0;
+}
+#nombre-del-menu ul {
+	position:absolute;
+	top:-999em;
+	width:130px;
+}
+#nombre-del-menu ul li {
+	width:100%;
+	margin-bottom:1px;
+}
+#nombre-del-menu li:hover {
+	visibility:inherit; /* fixes IE7 'sticky bug' */
+}
+#nombre-del-menu li {
+	float:left;
+	position:relative;
+}
+#nombre-del-menu a {
+	display:block !IMPORTANT;
+	position:relative;
+}
+#nombre-del-menu li.sfHover ul,
+#nombre-del-menu li.sfHover ul,
+#nombre-del-menu li:hover ul,
+#nombre-del-menu li.sfHover ul {
+	left:0;
+	top:1.9em; /* match top ul list item height */
+	z-index:999;
+}
+ul#nombre-del-menu li.sfHover li ul,
+ul#nombre-del-menu li:hover li ul,
+ul#nombre-del-menu li:hover li u,
+ul#nombre-del-menu li.hover li ul {
+	top:-999em;
+}
+ul#nombre-del-menu li li.sfHover ul,
+ul#nombre-del-menu li li:hover ul,
+ul#nombre-del-menu li li:hover ul,
+ul#nombre-del-menu li li:hover ul {
+	left:123px; /* match ul width */
+	top:0;
+}
+ul#nombre-del-menu li li.sfHover li ul,
+ul#nombre-del-menu li li.sfHover li ul,
+ul#nombre-del-menu li li:hover li ul,
+ul#nombre-del-menu li li.sfHover li ul {
+	top:-999em;
+}
+ul#nombre-del-menu li li li.sfHover ul,
+ul#nombre-del-menu li li li.sfHover ul,
+ul#nombre-del-menu li li li:hover ul,
+ul#nombre-del-menu li li li.sfHover ul {
+	left:123px; /* match ul width */
+	top:0;
+}
+.sf-sub-indicator {
+	display: none;
+}

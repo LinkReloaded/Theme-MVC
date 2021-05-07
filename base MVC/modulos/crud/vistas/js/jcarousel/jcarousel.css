@@ -1,0 +1,68 @@
+/* Contenedor */
+/*==================================================================================================*/
+.jcarousel-skin-XXX .jcarousel-container-horizontal {
+	height: 160px;
+	width: 1010px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.jcarousel-skin-XXX .jcarousel-clip-horizontal {
+	width:  930px;
+	height: 160px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.jcarousel-skin-XXX .jcarousel-item-horizontal {
+	margin-left: 0;
+	margin-right: 10px;
+	height: 140px;
+	width: 220px;
+}
+/* Horizontal Buttons */
+.jcarousel-skin-XXX .jcarousel-next-horizontal {
+	position: absolute;
+	top: 45px;
+	right: 5px;
+	width: 30px;
+	height: 60px;
+	cursor: pointer;
+	background-image: url(btn_next.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.jcarousel-skin-XXX .jcarousel-next-horizontal:hover {
+	background-position: -30px 0;
+}
+.jcarousel-skin-XXX .jcarousel-next-horizontal:active {
+	background-position: -60px 0;
+}
+.jcarousel-skin-XXX .jcarousel-next-disabled-horizontal, 
+.jcarousel-skin-XXX .jcarousel-next-disabled-horizontal:hover, 
+.jcarousel-skin-XXX .jcarousel-next-disabled-horizontal:active {
+	cursor: default;
+	background-position: -60px 0;
+}
+.jcarousel-skin-XXX .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	width: 30px;
+	height: 60px;
+	cursor: pointer;
+	background-image: url(btn_prev.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.jcarousel-skin-XXX .jcarousel-prev-horizontal:hover {
+	background-position: -30px 0;
+}
+.jcarousel-skin-XXX .jcarousel-prev-horizontal:active {
+	background-position: -60px 0;
+}
+.jcarousel-skin-XXX .jcarousel-prev-disabled-horizontal, 
+.jcarousel-skin-XXX .jcarousel-prev-disabled-horizontal:hover, 
+.jcarousel-skin-XXX .jcarousel-prev-disabled-horizontal:active {
+	cursor: default;
+	background-position: -60px 0;
+}
+/*==================================================================================================*/

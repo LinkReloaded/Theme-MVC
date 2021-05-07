@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* *****************************************************************
+   LAYOUT 320: Teléfono vertical
+   Proyect Author: 4Sale - http://www.4sale.cl
+****************************************************************** */
+@media only screen and (max-width: 479px) {
+body    {
+	background-color: #990000;
+}
+
+
+
+}

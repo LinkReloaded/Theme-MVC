@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* *****************************************************************
+   LAYOUT 480: Teléfono horizontal 
+   Proyect Author: 4Sale - http://www.4sale.cl
+****************************************************************** */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+body {
+	background-color: #CC6600;
+}
+
+}

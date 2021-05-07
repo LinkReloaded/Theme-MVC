@@ -1,0 +1,1 @@
+<div>Ejemplo de hook. Dato: <?=$this->vista->prueba1?></div>
